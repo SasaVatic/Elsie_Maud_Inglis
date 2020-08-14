@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#main {
+  font-family: "Ubuntu", sans-serif;
+  background-color: #094a45;
+}
+
+/* HEADER */
+
+#logo {
+  width: 50px;
+  fill: #f4f1de;
+}
+
+#title {
+  color: #f4f1de;
+  font-weight: 100;
+  font-size: 1.7rem;
+  flex: 2;
+  text-align: center;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  background-color: #81b29a;
+  height: 100px;
+  padding: 1.2rem 0;
+}
+
+#header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  padding: 0 1.2rem;
+}
+
+/* MAIN SECTION CONTENT */
+
+#container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1.2rem 1.2rem;
+}
+
+#main-content {
+  background-color: #81b29a;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.7);
+}
+
+#img-div {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.35);
+}
+
+#image {
+  width: 100%;
+}
+
+#img-caption {
+  color: #f4f1de;
+  font-size: 0.8rem;
+  text-align: center;
+  padding: 5px 0;
+}
+
+#tribute-info {
+  padding: 0.7rem;
+  color: #014f49;
+  font-size: 1rem;
+}
+
+#tribute-link {
+  color: #f4f1de;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
